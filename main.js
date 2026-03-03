@@ -1,0 +1,1 @@
+// eu ia fazer uns exemplos de js aqui mas faço depois zzzzzzz

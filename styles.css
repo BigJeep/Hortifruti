@@ -1,0 +1,58 @@
+body {
+    overflow: hidden; /*não entendo porquê isso acontece tanto >:(*/
+}
+
+* {
+    font-family: sans-serif, helvetica, arial;
+}
+
+p:not(#p-excecao), div.container-1 { /*exemplo de exceção e apontar para tags e classes diferentes*/
+    display: flex; /*flexbox e flex são a mesma coisa. E box também*/
+    justify-content: center;
+    align-items: center;
+}
+
+div.meu-container {
+    width: 50%;
+    margin: 2px;
+    border: 1px dotted black;
+    height: 33px;
+    
+}
+
+div.container-1 {
+    background-color: #00700080;
+    
+}
+
+.container-2 {
+    
+    display: grid;
+    place-items: center;
+
+    background-color: #00007080;
+    border-radius: 33%;
+
+}
+
+.container-2 > .meu-div-contido {
+    color: white;
+    
+}
+
+.container-3 {
+    background-color: hsl(50 75% 25% / 0.5);
+    border-radius: 20%;
+    
+}
+
+.container-3 > .meu-div-contido {
+    
+    min-height: 100%;
+    place-content: center;
+    margin: auto;
+    max-width: max-content;
+
+
+}
+
